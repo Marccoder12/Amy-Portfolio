@@ -207,8 +207,11 @@ main .img-cont img{
 }
 .catalogue .btns .btn{
     background-color: black;
-    padding: 2.5em;
+    padding: 0.5em;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 /* FOOTER SECTION(ALMOST FORGOT TO ADD THIS ONE) */
@@ -339,6 +342,10 @@ footer article .cta-cont a{
     padding: 3%;
 }
 }
+
+@media (max-width: 600px){
+}
+
 @media (max-width: 800px) {
 header{
  display: flex;
